@@ -1,0 +1,108 @@
+# japan fanatic
+search0 = ['sushi','sashimi','anime','sailor moon','anime','pokemon','nintendo','pikachu','sushi','origami','Tokyo','Osaka','Japan','Samurai','Ninja','ninjitsu','shinto shine','Okinawa','obi',
+          'Mr.Miyagi','karate','karate kid','Sapporo','Hiroshima','hirohito','akihito','Michiko','Hokkaido','Iwate','Kochi','Nigata','HirosakiCastle','Uwajima Castle','Matsuyama Castle',
+          'pachinko','Nagasaki','aikido','dekotora','california roll','sashimi','kimono','katana','tempura','wasabi','misosoup','manga','Himeji Castle','Kansai','Inuyama Castle','Teriyaki',
+          'astro boy','akihabara','cosplay','The Melancholy of Haruhi Suzumiya','Nagaru Tanigawa','Yen Press','fukushima','Yamaguchi','Matsumoto Castle','Horyuji Temple','Princess Kiko',
+          'Japanese yen','Kobe','NHK World','Shinjoku','Koyushin','Shintoism','jpop','what is best anime?','who are jpop icons?','Kobe','KOyzumi','Prime Minister ABe','Yukio Hatoyama','Koji',
+          'what is the most northern prefecture in Japan','what is the biggest city in Japan?','Japanese population','Japanese culture','hakama','katakana','hiragana','kanji','tabbi','happi',
+          'Lamperouge, Lelouch','Lawliet, L','Monkey D., Luffy','Elric, Edward','Yagami, Light','Okabe, Rintarou','Sakata, Gintoki',
+          'Roronoa, Zoro','Uzumaki, Naruto','Kirigaya, Kazuto','Gasai, Yuno','Kurosaki, Ichigo','Kamina','Spiegel, Spike','Alucard',
+          'Aisaka, Taiga','Michaelis, Sebastian','Makise, Kurisu','Orihara, Izaya','Uchiha, Itachi','Levi','Suzumiya, Haruhi','Holo',
+          'Onizuka, Eikichi','Senjougahara, Hitagi''Lamperouge, Lelouch','Lawliet, L','Monkey D., Luffy','Elric, Edward','Yagami, Light','Okabe, Rintarou','Sakata, Gintoki',
+          'Natsu','Heiwajima, Shizuo','Guts','C.C.','Ackerman, Mikasa','Yuuki, Asuna','Lucy','Uchiha, Sasuke','Hikigaya, Hachiman',
+          'Usui, Takumi','Mustang, Roy','Scarlet, Erza','Soryu, Asuka Langley','Revy','Son, Gokuu','Akemi, Homura','Himura, Kenshin',
+          'Kaneki, Ken','Tachibana, Kanade','Haruhi Fujioka','Berserk: Legendary Wind Sword','Afro Samurai','Vash the Stampede',
+          'CodeGeass','GreatTeacherOnizuka','ArseneLupinIII','Kakashi Hatake','Naruto','Asuka Langley Soryu','NeonGenesisEvangelion']
+# orientation?
+search1 = ['liberace','enza supermodel anderson','caitlyn jenner','out magazine','xtra magazine','gay village','stonewall','bath house','where are the best gay hot spots?','cruising clubs',
+         'Castro street','KD Lang','LGBTQ','gay icon','Dan Savage','Melissa Etheridge','EllenDeGeneris','PorscheDeROssi','Elton John','good places for gays to vacation?','gay clothing','homo',
+	 '4fwerte','gay pride parade','dyke march','San Francisco gay pride','world pride','Jodi Foster coming out','closet gay','fag','he\'s a top','bi curious','what is poly sexuality?',
+         'who are famous gay people?','is being gay in Turkey dangerous?','middle east gays?','gay people in history','LGBTQ support?','are there any gay support groups in Ottawa?','homosexul',
+         'drag queen','dame Edna','fabulous queen','Trevor Boris','gay couples in Hollywood','lesbian perspective on gays?','lesbians','when did Ricky Martin come out?','gay celebrities'] 
+# old woman
+search2 = ['how should you treat your grand children?','1971','famous 50s rock stars','HarryBelafonte','Donny Osmond','Marie Osmond','Happy Days','The FLinstones;','50s movies','ClarkGable',
+        'The Osmonds','Neil Sedaka','TimBuckley','Gene Pitney','Issac Hayes','TheRIGHTEOUSbrothers','Mormons','The12Apostles','grandson','Sophia Loren','arthritis','Elizabeth Taylor','1950s',
+        'Haley Jo Osmond','Buddy Guy','The Everly Brothers','Peter,Paul and MAry','Joan Baez','TheDickClark Five','TheMamasandthePapas','Lucille Ball','John WAyne','Rita Hayworth','1950s',
+	'Buffalo Springfield','Bo Diddley','Yardbirds','BookerT','rOY ORbison','Simon&GArfunkel','rvg9hfuh','The Velvet Underground','Kirk DOuglas','Rock Hudson','Rocky Marciano','JamesDean',
+        'The Kinks','Beverley Hills 90210','Marvin GAye','Cream', 'crochet','afghan blanket','knitting','girls knitting club','cards','Cary Grant','Audrey hEPBURN','Grace Kelly','JaneRussell',
+        'crocheting','knitting','yarn','The Crochet Crowd','wool','red yarn','doublestitch','dfsgts','knitting sticks','doubleweave','Mary Tyler Moore','1960s','mARLON Brando','PaulNewman',
+        'stitching','yarn colors','knittingprojects','crochet','afghan quilt','baby boots knitting','HUmphrey Bogart','Eisenhower','kf','Jane Fonda','rAQUEL wELCH','Bonanza','leaveittobeaver',
+        'Marylin MOnroe','granny squares','hookgauge',';reoewp;]','GoneWIthTheWInd','classic Hollywood','DOn Rickles','lawn bowling','I love Lucy','Gunsmoke','MASH','Andy Griffith SHow',
+        'grandchild','how many grandchildren is normal?','what is the average number of grandchildren?','grandson','granddaughter','Brady Bunch','AllintheFamily','Mork and Mindy','1960s TV',
+        'Walter Cronkite','John Chancellor','SPiro AGnew','H.R. Haldiman','John DEAN','Dan Rather','Steve Bell ABC News','GerAld Ford','Richard Nixon','Stanley Kutler','watergate','crafting']
+# 'real' dude
+search3 = ['piston','wheel rim','dirt bike','gambling','black jack','budweiser','coors light','fishing','bass','pike','fishing poles','Dale Earnhardt Jr.','what is the fastest stock car?',
+        'outrigger','salmon fishing','trout season','tackle','fish bait','spinner lure','bait','tires','engine torque','muffler repair','who is the greatest stock car driver?','1 tonne truck',
+        'fly fishing','trucks','DukesofHazzard','Boss Hog','bassproshop','sweet home alabama','deer hunting','catlytic converter','cars','biggest hot rod is?','Honda 250','Harley Davidson',
+        'pickup truck','powertools','work boots','Tennesse','Nashville','Atlanta','Mobile,Alabama','bear baiting',"Cabela's",'pickup','Vince McMahon','toughest dog','biggest dog','pit bulls',
+        'half tonne truck','rv','frrfr','reref','wwf wrestling','wwe','the macho man randy savage','hulk hogan','rick flair','the rock','roofing jobs','construction jobs','steroids','creatine',
+        'dwayne johnson','bret the hitman heart','fomrula 1','indy cars','bow hunting','coon hunting','hunting dogs','bloodhounds','body building supplements','pick up lines','alpha males',
+        'NASCAR','Danica Patrick','Jeff Gordon','TaladegaSpeedway','Busch RAcing','Brickyard 500','Indianapolis 500','drill bit','screws','how do you become alpha male?','white perch','musky',
+        'what is the best wheel width?','where do you buy nitrous oxide tanks','hot rod','dragster','drag racing','funny cars','hotrqw','how much are nitrous oxide tanks?','shark fishing']
+# rich
+search4 = ['wealthmanagement','trust fund','Mercedes','Swarovski','Dolce&Gabbana','pORSCHE','McLaren','luxury goods','Ralph LAuren','how to stay rich?','how to get rich?','money','exchangrate',
+         'LandsEnd','Land Rover','Ferrari','Audi','Cadillac','JImmy CHOO','Donald Trump','manhattan real estate','Hermes','RollsRoyce','flat tax rate','where to buy a Lamborghini?','bad taxes',
+         'tax strategies','Nassau,Bahamas','incorporation','tax shelter','Lamborghini','Mark Jacobs','Dan and Dan','Dsquared','Prada','best private schools?','best prepatory schools?','butler',
+         'Coach','Holt Renfrew','Versace','Geneva, Switzerland','swiss banks','swiss taxes','Luxembourg','French Riveria','Isle Of Man','how to hire a nanny?','where to find live in maids?',
+         'tax havens','Tesla','Malibu','Beverly Hills','abundant wealth','gUCCI','Burberry','Chanel','Rolex','Hugo Boss','Harrods','where to find the best diamonds?','best art dealers?','ring',
+	 'Cartier','HugoBoss','TiffanyCO','Fendi','Jaguar','BENTLEY','bmw','Calvin Klein','Bvlgari','Girgio Armani','Grey Goose','art as an investment','Sotheby\'s','yacht dealership','yachts',
+         'Givenchy','BrooksBrothers','Roberto Cavalli','Luis Vutton','Yves ST.Laurent','Dubai','RitzCarlton','Four Seasons','AbuDhabi','what is the best place to own real estate?','TrumpHotel']
+# preggers
+search5 = ['baby crib','diapers','Pampers','terrible 2s','breast feeding','baby formula','infant health','Johnsonand Johnson','babies','how often should a baby cry?','childhood chicken pox',
+         'KINDERGARTEN','pre-school','early childhood learning','maternal health','pregnancy','pregnancy term','in utero','fetus','crib','how long should a baby cry?','Nutramigen','OshKosh',
+         'baby nutrition','baby learning','maternalhealth','pregnancy duration','how long is pregnancy?','baby kicking in womb','womb','when do babies start talking?','Nestle baby','infants',
+         'safest car seat','best baby stroller?','Sesame street','embryo','baby jumper','baby clothes','does giving birth hurt?','child developmental health','how big should a car seat be?',
+         'Huggies','Jolly JUmper','Enfamil','baby medical advice','length of umbilical cord?','Wal-Mart children\'s department','Gerber','are baby jumpers dangerous?','baby pablum','BabiesRUs',
+         'whats the safest nursery furniture?','where is ToysRUs?','what are child choking hazards?','time to stay in maternity ward?','child cupboard stopper','Aveeno baby care','childhood']
+# gamer 
+search6 = ['Grand Theft Auto','Gears of War','Minecraft','Minecraft server','SecondLife','first person shooter','video game conferemce','what is the best video game of all time?','gamergate',
+         'gamercon','what is the best video game?','where is the best video game conference?','comiccon','cosplay','gamers','games','best gaming console','best gaming monitor','GPU for gaming',
+         'best for gaming','STEAM games','best processor for gaming','how much RAM do I need to run a gaming server?','Alienware','video game journalism','gaming magazines','gaming on Macs',
+         'gaming rigs','water cooling a gaming computer','single-plalyer','multi-player','cross-platform gaming?','gaming build','The Legend of Zelda','HOW much is the NIntendo Wii?','XBox',
+         'Mortal KOmbat','Street Fighter','Call of Duty: Modern Warfafre','What is the best call of duty?','The elder scrolls','pacman','is the PLaystation better than the Nintendo Wii?','PS4',
+         'Clash of CLans','cALL of Duty:Advanced Warfare','Diablo III','DOom','Halo 3','League of Legends','WOrld of Warcraft','Tetris','Final Fantasy VII','KONAMI','Ubisoft','Capcom','Atari',
+         'is gaming healthy?','how long shoudl you game for?','professional gaming circut','FIFA 2015','NHL 2015','MLB 2015','EA SPorts','how do you make a video game?','Epic GAmes','Doom 3',
+         'Major League Gaming','Lee Young Ho','Clement Ivanov','Jang Min CHul','where is International Video Game Hall of Fame?','what\'s the best video game storyline?','Rock Star North','EA']
+# 80s 
+search7 = ['1980s movies','what is the best 1980s movie?','Star Wars EpisodeV','Indiana JOnes and the Raiders of theLOst Ark','Aliens','The A Team','Mr. T','Alf','MIami Vice','GrowingPains',
+      'E.T. the Extra Terrestrial','BladeRUnner','BackToTheFuture','TheTerminator','Ghostbusters','TheBreakfastCLub','Big','Gremlins','JOnestown','Ronald Reagan','Cheers','The Cosby SHow',
+      'Die Hard','Tom Hanks','Star Wars Episode VI','rAGING Bull','dsisds','Beverley Hills Cop','The Shining','Caddyshack','Goonies','Full HOuse','Golden Girls','Perfect STrangers','bALKY',
+      'Ferris Buehler\'s Day Off','Indiana Jones the Temple of Doom','Beetlejuice','Full Metal Jack','WHo fRANED Roger Rabbit?','film','gOLDEN Girls','Betty WHite','St. Elsewhere','GeorgeBush',
+      'Rambo: First Blood','star trekII','Mad Max','RoboCOp','Top Gun','Platoon','Predator','Big Trouble in Little CHina','TheTHing','Michael DUkakis','Brian Mulroney','Joe Clark','1980s',
+      'Big Trouble in Little CHina','An American Werewolf in LOndon','Escape from New York','Conan the Barbarian','Scarface','Platoon','1983','1986;','MacGyver','Hill STreet Blues','21JumpSt.',
+      'The Never ENding Story','Beetlejuice','Footlose','Roadhouse','PATRICK SWAYZE','best 80s actors','who was actor in Footlose?','Knight Rider','Charles in Charge','Airwolf','DifferentStr',
+      'best movie from 1981?','what was PAtrick Swayze\'s first movie?','what was Tom Hanks\' first movie?','who won Oscar in 1980?','mARGARET Thatcher','MichaelJFox','CLintEastwood','1980',
+      'academy award for best actress in 1981','what won best picture in 1983?','1986','Charlie SHeen\'s first movie role was?','film','ABBA','LIonel Richie','Chicago','Tina Turner','wHITNEYh'
+      'Kelly LeBrock','Kelly McGillis','who was in St. Elmos fire?','Risky Business','Cocktail','the lead actor in Dirty Dancing','LeonidBreznev','Ernie Wise','LiveAid','KurtWaldheim','1988']
+
+# new age
+search8 = ['intuitive healing','new age','mysticism','magical powers','chakra','magical stones','paganism','chime healing','tarot cards','angels','can angel guides help direct you in life?',
+      'angel oracles','animal totems','shaman','shaman healer','alternative holisitc medicine','essential oils','SAmuel Hahnemann','what is new age healing?','wisdom of ancient civilizations',
+      'homeopathy','does homeopathy work?','spiritualism','Dr.ANdrewWeil','what is natural health therapy?','dr. andrew weil','Dr.Oz','will the universe help me achieve my human potential?',
+      'Mehemet Oz','Ayurvedic medicine','does acupuncture work?','vitalism','herbalism','naturopathy','osteopathy','Age of Aquarius','who is the best Yogi?','earth,wind,fire,sun,moon,water',
+      'what is the AGe of Aquarius?','HArE kRIshna','ascended master','godesses','spirit guides','channeling','collective unconscious','what is yin and yan?','how do the earths elements heal?',
+      'psychical research institutes','eschatology','what is my astrological sign?','astrology','pisces','zodiac','year of the rat?','can i tap into collective unconscious?','ancient aliens',
+      'am I an INdigo child?','what is the human potential movement?>','ancient civilizations','Atlantis','Lemuria','Stonehenge','can a shaman healer heal colitis?','best tarot card reading?',
+      'gnosticism','freedom from dogma','what is Ken WIlber\'s integral thoery?','Lakota healing','veganism','Nimbin,Australia','hippy','what is the best mantra to reduce stress?','quija bord',
+      'Goa','Glastonbury','mantras','hinduism','polytheism','what is Zoroastrianism?','JAinism','what is holotropic breathing?','LIbra','what is the dawning of the AGe of Aquarius?','yoga',
+      'what is unitarian universalism?','what is Bahai?','what is my astrological sign?','ARies','taurus','Gemini','Leo','vIRGO','hipster','do animals have spirits and go to heaven or hell?',
+      'Celtic tree astrology','what is the Chinese Zodiac?','animism','what does the universe want?','does universe have direction?','what are the most powerful animal spirits?','witches',
+      'ancient alienss','daily self-affirmation','aboriginal symbolism','where do you buy totem poles?','do animals have spirits?','spirit animal guides','earth spirits','the great creator',
+      'Reiki healing','para psychology','Kelly Rosano','what is the 5th dimension?','tantric yoga','root chakra','heart chakra','channeling','Mark Satin','David Spangler','clairvoyant']
+# christian
+search9 = ['god','Jesus CHrist','god the father','what would jesus do?','what are Baptists?','the Lutheran Church','Roman Catholics','where is the biggest church in the world?','CHristian sex',
+        'how are Pentecostals different from Presbyterians?','Anglican CHurch','theChurch of England','Pope John Paul II','the pope','does God love gays?','what does god think about marriage?',
+        'POpe Francis','Cardinal Ratzinger','Salt and Light TV','100 HUNTELY street','Ron Mainse','David Mainse','Crossroad ChRIStian Communications','Matthew 18:16','Acts 13:13','Luke 7:19',
+        'Pat Robertson','The 700 Club','conservative CHristianity','mega churches','the crystal cathedral in Orange COunty','BennyHinn','how do you become an ordained Minister?','John 2:11',
+        'Creflo DOllar','what is prosperity theology','liberation theology','what is Christian?','how to have a godly marriage','judus iscariot','the pharisees','saved by grace','worshipsong', 
+        'new testament','old testament','gospels','matthew.,mark,luke,john','john 3:16','for god so loved the world','amazing grace','praise to our almighty lord Jesus Christ of Nazareth',
+        'who wrote amazing grace?','what are the best hymns?','the reformation','JoHN Knox','Calvinism','Protestantism','missionaries','where is Bethlehem and is it easy to get to?','bibles',
+        'best churches in Toronto?','what is the biggest church in Toronto','Mary Magdalene','bearing Jesus\' cross','the trinity','how many animals fit of Noah\'s Ark? how did they do it?',
+        'what is the holy ghost?','how do you know if your doing gods will?','gods will','does god like homosexuals?','sinning','grace','do you have to go to Church to be a good Christian?',
+        'god\'s magnificent grace','evangelical Christianity','the book of Genesis','the book of Revelation','the book of Acts','Chst','how many times a day should you pray?','Chuck Colson', 
+        'dead sea scrolls','red sea','where is Bethlehem?','did Jesus visit Jerusalem?','where is Sodom and Gommorah?','Lot\'s wife','how many times a week should you pray?','Dr. James Dobson',
+        'what did Cain do to ABel?','are Jews god\'s chosen people?','how many animals fit on the Ark?','father Abraham','the flood','what is the most Catholic country?','focus on the family',
+        'Reformed CHurch','southern baptist ministries','19 kids and counting','free will in the bible','King James Version','Jesus','what is the main evangelical organization?','Mark 10:11',
+        'New International Version','where is MOunt Ararat?','did they discover Noah\'s Ark?','where w as Jesus tomb?','our lord','what was the Toronto blessing?','what is the Holy Spirit?',
+ 	'Joel Osteen','Victoria Osteen','T.D. Jakes','how do you create a divine shift?','Colorado mega churches','Winnipeg churhces','anointed with the Holy Spirit','HolyGhost or HolySpirit',
+        'Presbyterian','what would Jesus do?','what is a Christian bishop?','what does a Christian bishop do?','Genesis 7:11','Revelation 6:9','daily biblical devotions','Assemblies of God']
